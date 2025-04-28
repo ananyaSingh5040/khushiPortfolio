@@ -1,5 +1,5 @@
-import React from 'react'
-import { GlowCard } from '../GlowCard'
+import React from "react";
+import { GlowCard } from "../GlowCard";
 
 const Achievements = () => {
   return (
@@ -9,7 +9,7 @@ const Achievements = () => {
       <div className="flex flex-col gap-6 max-w-6xl w-full">
         {/* 1st Card – image on right */}
         <GlowCard
-          title="Build-a-thon Finalist"
+          title="Reseach paper acceptance"
           description=""
           glowColor="purple"
           width="100%"
@@ -22,7 +22,15 @@ const Achievements = () => {
             />
             <div>
               <p className="text-xl font-semibold text-purple-400">
-                Ranked among the top 10 teams in Build-a-thon. Built <strong>Hireverse</strong> — an AI-powered recruitment platform with features like automated interview bots, coding tests, performance analytics, and feedback to minimize HR workload and enhance student preparation.
+                Presented my research paper,{" "}
+                <strong>
+                  "Detecting Irregularities in Energy Consumption Patterns Using
+                  Machine Learning for Fault Detection and Prevention"
+                </strong>
+                , at <strong>WCAIAA 2025</strong>, hosted by Sardar Patel
+                University. The paper will be published in the{" "}
+                <strong>SCOPUS-indexed Springer Book Series</strong>, Lecture
+                Notes in Networks and Systems.{" "}
               </p>
             </div>
           </div>
@@ -43,7 +51,9 @@ const Achievements = () => {
             />
             <div>
               <p className="text-xl font-semibold text-green-400">
-                Ranked among the top 700 students on GeeksforGeeks. Solved over 200+ DSA problems and consistently contributed to discussions and solutions.
+                Ranked among the top 700 students on GeeksforGeeks. Solved over
+                200+ DSA problems and consistently contributed to discussions
+                and solutions.
               </p>
             </div>
           </div>
@@ -64,14 +74,17 @@ const Achievements = () => {
             />
             <div>
               <p className="text-xl font-semibold text-blue-400">
-              Secured <strong>Third Position</strong> in a prestigious <strong>UI/UX Design Competition</strong>, demonstrating creativity, user-centric thinking, and excellence in design principles.
+                Secured <strong>Third Position</strong> in a prestigious{" "}
+                <strong>UI/UX Design Competition</strong>, demonstrating
+                creativity, user-centric thinking, and excellence in design
+                principles.
               </p>
             </div>
           </div>
         </GlowCard>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Achievements
+export default Achievements;
