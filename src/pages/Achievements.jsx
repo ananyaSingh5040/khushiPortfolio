@@ -39,7 +39,7 @@ const Achievements = () => {
             <img
               src="/Achievement2.jpg"
               alt="GeeksforGeeks"
-              className="w-full md:w-1/2 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+              className="w-full md:w-1/4 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
             />
             <div>
               <p className="text-xl font-semibold text-green-400">
@@ -58,13 +58,13 @@ const Achievements = () => {
         >
           <div className="flex flex-col md:flex-row-reverse items-center gap-6 text-left p-8">
             <img
-              src="/Achievement3.jpg"
+              src="/Achieve.jpg"
               alt="GitHub Achievements"
-              className=" w-full md:w-1/3 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+              className=" w-full md:w-1/2 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
             />
             <div>
               <p className="text-xl font-semibold text-blue-400">
-                Earned <strong>YOLO</strong> and <strong>Pull Shark</strong> badges on GitHub with a streak of more than 4 months of consistent open-source contributions and pull requests.
+              Secured <strong>Third Position</strong> in a prestigious <strong>UI/UX Design Competition</strong>, demonstrating creativity, user-centric thinking, and excellence in design principles.
               </p>
             </div>
           </div>
