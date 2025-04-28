@@ -8,7 +8,7 @@ const Projects = () => {
 
       <div className="flex flex-col items-center gap-10">
         <GlowCard
-          title="URL Shortener – Link Management & Tracking Platform"
+          title="Customer Testimonals"
           description=""
           glowColor="red"
           width="70rem"
@@ -88,7 +88,7 @@ const Projects = () => {
         </GlowCard>
 
         <GlowCard
-          title="Task Management App"
+          title="AI-powered web app that scans food products"
           description=""
           glowColor="blue"
           width="70rem"
@@ -181,8 +181,8 @@ const Projects = () => {
         </GlowCard>
 
         <GlowCard
-          title="Cherry Bakes – Vintage Themed Bakery Website"
-          description="Frontend Developer"
+          title="AI-based air quality prediction system"
+          description=""
           glowColor="pink"
           width="70rem"
         >
