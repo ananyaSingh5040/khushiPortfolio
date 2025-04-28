@@ -269,7 +269,7 @@ const Projects = () => {
         </GlowCard>
       </div>
       <footer className="text-center mt-16">
-        <p className="text-sm text-gray-400">© 2025 by Ananya Singh.</p>
+        <p className="text-sm text-gray-400">© 2025 by Khushi Patel.</p>
       </footer>
     </div>
   );
