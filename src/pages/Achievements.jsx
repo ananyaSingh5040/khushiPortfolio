@@ -61,7 +61,7 @@ const Achievements = () => {
 
         {/* 3rd Card – image on right */}
         <GlowCard
-          title="GitHub Achievements"
+          title="UI/UX Achievements"
           description=""
           glowColor="blue"
           width="100%"
