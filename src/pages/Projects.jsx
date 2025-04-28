@@ -24,163 +24,253 @@ const Projects = () => {
             {/* Text on left */}
             <div className="space-y-4">
               <p>
-                URL shortening and management web platform built using the{" "}
-                <span className="font-semibold text-blue-400">MERN stack</span>.
-                Users can seamlessly create, customize, and share shortened URLs
-                with unique aliases, enhancing accessibility and branding. The
-                interface is designed for simplicity and speed, ensuring users
-                get things done in just a few clicks.
+                Developed a dynamic and visually engaging{" "}
+                <span className="font-semibold text-blue-400">
+                  customer testimonials section{" "}
+                </span>
+                for a business website. This feature highlights{" "}
+                <span className="font-semibold text-blue-400">
+                  real user feedback
+                </span>{" "}
+                to boost brand credibility and trust among potential clients.
+                The section is designed to fit seamlessly into the website’s
+                modern aesthetic, making it both eye-catching and authentic.
               </p>
 
               <p>
-                Integrated{" "}
+                Created an intuitive and accessible{" "}
+                <span className="font-semibold text-blue-400">layout</span>{" "}
+                featuring{" "}
                 <span className="font-semibold text-blue-400">
-                  user authentication
-                </span>{" "}
-                using JWT and{" "}
-                <span className="font-semibold text-blue-400">
-                  role-based authorization
-                </span>{" "}
-                to provide secure, personalized access. Users can manage their
-                URLs from a dedicated panel, with full control over edits,
-                deletions, and redirection behaviors.
-              </p>
-              <p>
-                The backend, built with{" "}
-                <span className="font-semibold text-blue-400">
-                  Node.js and Express.js
+                  customer photos, roles, and short experiences
                 </span>
-                , connects with{" "}
-                <span className="font-semibold text-blue-400">MongoDB</span> to
-                ensure fast and reliable data operations. Middleware handles
-                validation, error responses, and API security layers
-                efficiently.
+                with the product or service. Each testimonial is thoughtfully
+                structured to emphasize the customer's positive impact and
+                story, enhancing emotional connection with site visitors.
               </p>
+
+              <p>
+                Focused heavily on{" "}
+                <span className="font-semibold text-blue-400">
+                  clean UI/UX principles
+                </span>{" "}
+                to ensure easy readability across devices. Used{" "}
+                <span className="font-semibold text-blue-400">
+                  responsive design techniques
+                </span>{" "}
+                and subtle animations to create a smooth, professional browsing
+                experience.
+              </p>
+
+              <p>
+                Additionally, optimized the section for{" "}
+                <span className="font-semibold text-blue-400">
+                  SEO performance
+                </span>{" "}
+                by ensuring that customer testimonials are structured properly
+                for search engines, boosting discoverability and site ranking.
+              </p>
+
+              <p>
+                This project plays a critical role in{" "}
+                <span className="font-semibold text-blue-400">
+                  marketing and customer acquisition strategies
+                </span>
+                , significantly improving user confidence and conversion rates.
+              </p>
+
               <p className="font-semibold text-sm text-blue-300">
-                Tech Stack: Node.js, Express.js, MongoDB, JWT.
-              </p>
-              <p className="font-semibold text-sm text-white-300">
-                Link:{" "}
-                <a
-                  className="font-semibold text-sm text-blue-300"
-                  target="_blank"
-                  href="https://github.com/ananyaSingh5040/ShortURL"
-                >
-                  Github-ShortURL
-                </a>
+                Tech Stack: React.js, Tailwind CSS, Framer Motion (for
+                animations).
               </p>
             </div>
           </div>
         </GlowCard>
 
         <GlowCard
-  title="Task Management App"
-  description=""
-  glowColor="blue"
-  width="70rem"
->
-  <div className="flex flex-col md:flex-row-reverse items-center gap-6 text-left">
-    {/* Image on right */}
-    <img
-      src="/Achievement2.jpg" // Replace with your actual image path
-      alt="Task Management App"
-   className="w-full md:w-1/2 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
-    />
-
-    {/* Text on left */}
-    <div className="space-y-4">
-      <p>
-        Task management web app built using the{" "}
-        <span className="font-semibold text-purple-400">MERN stack</span>. It
-        allows users to create, update, and delete tasks with ease. The app
-        offers a user-friendly interface designed for seamless task
-        organization and management.
-      </p>
-
-      <p>
-        Implemented{" "}
-        <span className="font-semibold text-purple-400">full CRUD functionality</span>
-        , enabling users to manage their tasks effectively. The app supports
-        user authentication for secure login and real-time task updates.
-      </p>
-
-      <p>
-        Built with{" "}
-        <span className="font-semibold text-purple-400">Node.js</span> and{" "}
-        <span className="font-semibold text-purple-400">Express.js</span> on the
-        backend, and{" "}
-        <span className="font-semibold text-purple-400">React.js</span> for the
-        front end, with MongoDB as the database. The app ensures smooth
-        operations with state management for real-time updates.
-      </p>
-
-      <p className="font-semibold text-sm text-purple-300">
-        Tech Stack: React.js, Node.js, Express.js, MongoDB.
-      </p>
-      <p className="font-semibold text-sm text-white-300">
-        Link:{" "}
-        <a
-          className="font-semibold text-sm text-purple-300"
-          target="_blank"
-          href="https://lpu-mern.vercel.app/signup"
+          title="Task Management App"
+          description=""
+          glowColor="blue"
+          width="70rem"
         >
-          Task Management App
-        </a>
-      </p>
-    </div>
-  </div>
-</GlowCard>
+          <div className="flex flex-col md:flex-row-reverse items-center gap-6 text-left">
+            {/* Image on right */}
+            <img
+              src="/Achievement2.jpg" // Replace with your actual image path
+              alt="Task Management App"
+              className="w-full md:w-1/4 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+            />
 
-<GlowCard
-  title="Cherry Bakes – Vintage Themed Bakery Website"
-  description="Frontend Developer"
-  glowColor="pink"
-  width="70rem"
->
-  <div className="flex flex-col md:flex-row-reverse items-center gap-6 text-left">
-    {/* Image on right */}
-    <img
-      src="/Achievement3.jpg" // Replace with your actual image path
-      alt="Cherry Bakes Website"
-      className="w-full md:w-1/2 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
-    />
+            {/* Text on left */}
+            <div className="space-y-4">
+              <p>
+                Developed an{" "}
+                <span className="font-semibold text-red-400">
+                  AI-powered web application
+                </span>
+                that enables users to scan food product labels using{" "}
+                <span className="font-semibold text-red-400">
+                  OCR (Optical Character Recognition)
+                </span>
+                and{" "}
+                <span className="font-semibold text-red-400">
+                  NLP (Natural Language Processing)
+                </span>
+                technologies. The system intelligently extracts text from
+                product packaging and analyzes ingredient lists to identify{" "}
+                <span className="font-semibold text-red-400">
+                  harmful substances
+                </span>{" "}
+                that could pose risks to{" "}
+                <span className="font-semibold text-red-400">
+                  heart health
+                </span>
+                .
+              </p>
 
-    {/* Text on left */}
-    <div className="space-y-4">
-      <p>
-        Designed and developed <span className="font-semibold text-pink-400">Cherry Bakes</span>, a delightful bakery website with a{" "}
-        <span className="font-semibold text-pink-400">vintage aesthetic</span> using just HTML and CSS. The site features a cozy, feminine vibe with soft pastel colors and elegant typography to reflect the brand’s identity.
-      </p>
+              <p>
+                Integrated{" "}
+                <span className="font-semibold text-red-400">
+                  real-time ingredient databases
+                </span>
+                from trusted sources such as{" "}
+                <span className="font-semibold text-red-400">FDA</span> and{" "}
+                <span className="font-semibold text-red-400">FSSAI</span>{" "}
+                through{" "}
+                <span className="font-semibold text-red-400">
+                  automated web scraping
+                </span>
+                . This ensures that the application stays updated with the
+                latest food safety information and regulatory guidelines.
+              </p>
 
-      <p>
-        Built <span className="font-semibold text-pink-400">responsive layouts</span> that adapt across devices, ensuring users have a consistent browsing experience whether they’re on mobile, tablet, or desktop. Every element was hand-crafted with love to showcase the bakery's offerings in the most delicious way.
-      </p>
+              <p>
+                Engineered the backend using{" "}
+                <span className="font-semibold text-red-400">Flask</span> for
+                efficient API handling and smooth processing of OCR and NLP
+                workflows. Implemented asynchronous data fetching and caching
+                strategies to deliver{" "}
+                <span className="font-semibold text-red-400">
+                  fast and accurate results
+                </span>
+                to users.
+              </p>
 
-      <p>
-        Styled using <span className="font-semibold text-pink-400">custom fonts</span>, gentle animations, and smooth hover effects. The website brings a sense of warmth and nostalgia—perfectly aligning with the cozy, old-school bakery vibe.
-      </p>
+              <p>
+                Deployed the application on{" "}
+                <span className="font-semibold text-red-400">
+                  Google Cloud Platform (GCP)
+                </span>
+                to ensure{" "}
+                <span className="font-semibold text-red-400">
+                  high scalability, low latency
+                </span>
+                , and{" "}
+                <span className="font-semibold text-red-400">
+                  reliable performance
+                </span>{" "}
+                even under heavy user loads.
+              </p>
 
-      <p className="font-semibold text-sm text-pink-300">
-        Tech Stack: HTML, CSS, JavaScript.
-      </p>
-      <p className="font-semibold text-sm text-white-300">
-        Link:{" "}
-        <a
-          className="font-semibold text-sm text-pink-300"
-          target="_blank"
-          href="https://github.com/ananyaSingh5040/cherryBakes"
+              <p className="font-semibold text-sm text-red-300">
+                Tech Stack: Python, Flask, Google Cloud Platform, Tesseract OCR,
+                BeautifulSoup, NLP libraries (spaCy).
+              </p>
+            </div>
+          </div>
+        </GlowCard>
+
+        <GlowCard
+          title="Cherry Bakes – Vintage Themed Bakery Website"
+          description="Frontend Developer"
+          glowColor="pink"
+          width="70rem"
         >
-          Github-Cherry Bakes
-        </a>
-      </p>
-    </div>
-  </div>
-</GlowCard>
+          <div className="flex flex-col md:flex-row-reverse items-center gap-6 text-left">
+            {/* Image on right */}
+            <img
+              src="/Achievement3.jpg" // Replace with your actual image path
+              alt="Cherry Bakes Website"
+              className="w-full md:w-1/2 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+            />
 
+            {/* Text on left */}
+            <div className="space-y-4">
+              <p>
+                Developed an{" "}
+                <span className="font-semibold text-green-400">
+                  AI-based air quality prediction system
+                </span>{" "}
+                utilizing real-time{" "}
+                <span className="font-semibold text-green-400">
+                  IoT sensor data
+                </span>{" "}
+                and{" "}
+                <span className="font-semibold text-green-400">
+                  machine learning techniques
+                </span>
+                .
+              </p>
+
+              <p>
+                Applied{" "}
+                <span className="font-semibold text-green-400">
+                  feature engineering
+                </span>
+                ,{" "}
+                <span className="font-semibold text-green-400">
+                  data normalization
+                </span>
+                , and{" "}
+                <span className="font-semibold text-green-400">
+                  hyperparameter tuning (GridSearchCV)
+                </span>{" "}
+                to improve prediction accuracy.
+              </p>
+
+              <p>
+                Built an interactive{" "}
+                <span className="font-semibold text-green-400">
+                  Flask web app
+                </span>{" "}
+                to display{" "}
+                <span className="font-semibold text-green-400">
+                  real-time AQI forecasts
+                </span>
+                ,{" "}
+                <span className="font-semibold text-green-400">
+                  pollution trends
+                </span>
+                , and{" "}
+                <span className="font-semibold text-green-400">
+                  risk analysis
+                </span>
+                .
+              </p>
+
+              <p>
+                Deployed the model using{" "}
+                <span className="font-semibold text-green-400">AWS EC2</span>{" "}
+                and{" "}
+                <span className="font-semibold text-green-400">Flask API</span>,
+                ensuring{" "}
+                <span className="font-semibold text-green-400">
+                  real-time data processing and monitoring
+                </span>
+                .
+              </p>
+
+              <p className="font-semibold text-sm text-green-300">
+                Tech Stack: Python, Flask, Scikit-learn, AWS EC2, IoT Sensors,
+                Pandas, GridSearchCV.
+              </p>
+            </div>
+          </div>
+        </GlowCard>
       </div>
       <footer className="text-center mt-16">
-          <p className="text-sm text-gray-400">© 2025 by Ananya Singh.</p>
-        </footer>
+        <p className="text-sm text-gray-400">© 2025 by Ananya Singh.</p>
+      </footer>
     </div>
   );
 };
